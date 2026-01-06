@@ -1,0 +1,26 @@
+/* Contact.module.css */
+
+.title {
+  font-size: 20px;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+  width: 300px;
+}
+
+.Container {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+}

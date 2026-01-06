@@ -1,0 +1,68 @@
+/* Home.module.css */
+
+.container {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+.Block {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.Title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.Tag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Categories {
+  display: flex;
+  justify-content: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+.Category {
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+  color: #0066cc;
+  border: 1px solid #0066cc;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+}
+
+.Item {
+  border: 1px solid #ccc;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.Date {
+  font-size: 0.8rem;
+  color: #888;
+  padding-top: 1rem;
+}
+
+.Body {
+  font-size: 1rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
